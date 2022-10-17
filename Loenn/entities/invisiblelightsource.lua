@@ -1,4 +1,5 @@
-﻿local invisibleLightSource = {}
+local xnaColors = require("consts.xna_colors")
+local invisibleLightSource = {}
 
 invisibleLightSource.name = "LunaticHelper/InvisibleLightSource"
 invisibleLightSource.depth = 0
