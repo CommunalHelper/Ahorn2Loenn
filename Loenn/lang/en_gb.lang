@@ -1,2 +1,19 @@
 # Name
-mods.EverestYamlName.name=Lunatic Helper
+mods.LunaticHelper.name=Lunatic Helper
+
+# Custom Refill
+entities.LunaticHelper/CustomRefill.placements.name.one=custom Refill
+entities.LunaticHelper/CustomRefill.placements.name.two=custom Refill (Two Dashes)
+
+# Golden Gate
+entities.LunaticHelper/GoldenberryGate.placements.name.default=goldenberry Gate
+
+# Invisible Light Source
+entities.LunaticHelper/InvisibleLightSource.placements.name.default=invisible Light Source
+
+# Strawberry Gate
+entities.LunaticHelper/StrawberryGate.placements.name.default=strawberry Gate
+
+# Strawberry With Return
+entities.LunaticHelper/StrawberryWithReturn.placements.name.default=strawberry (With Return)
+entities.LunaticHelper/StrawberryWithReturn.placements.name.winged=strawberry (Winged, With Return)
