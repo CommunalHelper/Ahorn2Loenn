@@ -4,14 +4,14 @@ customRefill.name = "LunaticHelper/CustomRefill"
 customRefill.depth = -100
 customRefill.placements = {
     {
-        name = "Custom Refill (Lunatic Helper)",
+        name = "one",
         data = {
             twoDash = false,
             respawn = 2.5
         }
     },
     {
-        name = "Custom Refill (Two Dashes) (Lunatic Helper)",
+        name = "two",
         data = {
             twoDash = true,
             respawn = 2.5
