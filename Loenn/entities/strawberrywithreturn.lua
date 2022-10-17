@@ -7,7 +7,7 @@ strawberryWithReturn.nodeLineRenderType = "fan"
 strawberryWithReturn.nodeTexture = "collectables/strawberry/seed00"
 strawberryWithReturn.placements = {
     {
-        name = "Strawberry (With Return) (Lunatic Helper)",
+        name = "default",
         data = {
             checkpointID = -1,
             order = -1,
@@ -15,7 +15,7 @@ strawberryWithReturn.placements = {
         }
     },
     {
-        name = "Strawberry (Winged, With Return) (Lunatic Helper)",
+        name = "winged",
         data = {
             checkpointID = -1,
             order = -1,
