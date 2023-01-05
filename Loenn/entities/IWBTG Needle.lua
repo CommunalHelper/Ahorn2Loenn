@@ -4,7 +4,6 @@ local needle = {}
 
 needle.name = "Needle Helper/IWBTGNeedle"
 needle.depth = 0
-needle.texture = "objects/NeedleHelper/NeedleUp/needle00"
 needle.placements = {
     {
         name = "needleUp",
