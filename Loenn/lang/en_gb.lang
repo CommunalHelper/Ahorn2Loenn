@@ -22,9 +22,9 @@ entities.LunaticHelper/StrawberryWithReturn.placements.name.winged=Strawberry (W
 mods.Needle Helper.name=Needle Helper
 
 # IWBTG Needle
-entities.Needle Helper/IWBTGNeedle.placements.name.needleLeft= IWBTG Needle (Left)
-entities.Needle Helper/IWBTGNeedle.placements.name.needleRight= IWBTG Needle (Right)
-entities.Needle Helper/IWBTGNeedle.placements.name.needleDown= IWBTG Needle (Down)
-entities.Needle Helper/IWBTGNeedle.placements.name.needleUp= IWBTG Needle (Up)
+entities.Needle Helper/IWBTGNeedle.placements.name.needleLeft=IWBTG Needle (Left)
+entities.Needle Helper/IWBTGNeedle.placements.name.needleRight=IWBTG Needle (Right)
+entities.Needle Helper/IWBTGNeedle.placements.name.needleDown=IWBTG Needle (Down)
+entities.Needle Helper/IWBTGNeedle.placements.name.needleUp=IWBTG Needle (Up)
 entities.Needle Helper/IWBTGNeedle.attributes.description.direction=The direction the needle faces.
 entities.Needle Helper/IWBTGNeedle.attributes.description.directory=The sprite used for the needle. Defaults to objects/NeedleHelper, path is relative to Graphics/Atlases/Gameplay.
