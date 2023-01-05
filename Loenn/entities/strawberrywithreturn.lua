@@ -25,7 +25,7 @@ strawberryWithReturn.placements = {
 }
 
 function strawberryWithReturn.texture(room, entity)
-    return entity.winged and "collectables/strawberry/normal00" or "collectables/strawberry/wings01"
+    return entity.winged and "collectables/strawberry/wings01" or "collectables/strawberry/normal00"
 end
 
 return strawberryWithReturn
