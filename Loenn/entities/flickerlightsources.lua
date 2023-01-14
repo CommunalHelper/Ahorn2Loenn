@@ -38,7 +38,7 @@ light.nodeLimits = {1, 1}
 
 local lightPath = {}
 
-lightPath.name = "FlickerLightSourcePath"
+lightPath.name = "ContortHelper/FlickerLightSourcePath"
 lightPath.depth = 0
 lightPath.texture = "ahorn/muntheory/contorthelper/flickerlightsourcepath"
 lightPath.placements = {

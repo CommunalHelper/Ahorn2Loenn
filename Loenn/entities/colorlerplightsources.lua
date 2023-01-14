@@ -43,7 +43,7 @@ light.fieldInformation = {
 
 local lightPath = {}
 
-lightPath.name = "ColorLerpLightSourcePath"
+lightPath.name = "ContortHelper/ColorLerpLightSourcePath"
 lightPath.depth = 0
 lightPath.texture = "ahorn/muntheory/contorthelper/colorlerplightsourcepath"
 lightPath.placements = {
