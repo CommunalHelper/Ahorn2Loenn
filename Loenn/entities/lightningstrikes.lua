@@ -1,5 +1,4 @@
 local contorthelper = require("mods").requireFromPlugin("libraries.contorthelper")
-local xnaColors = require("mods").requireFromPlugin("libraries.xnacolorsforoptions")
 
 local lightningStrikes = {}
 
@@ -51,10 +50,12 @@ lightningStrikes.fieldInformation = {
         options = contorthelper.depths
     },
     flashColors = {
-        options = xnaColors
+        allowXNAColors = true,
+        fieldType = "color"
     },
     lightningColors = {
-        options = xnaColors
+        allowXNAColors = true,
+        fieldType = "color"
     }
 }
 
