@@ -1335,6 +1335,7 @@ triggers.ContortHelper/ScreenWipeTrigger.attributes.description.flagsAfterInvoke
 
 # ScreenWipeModifierTrigger
 triggers.ContortHelper/ScreenWipeModifierTrigger.placements.name.default=Screen Wipe Modifier Trigger
+triggers.ContortHelper/ScreenWipeModifierTrigger.placements.name.wipein=Screen Wipe Modifier Trigger (Wipe In, Needed) 
 triggers.ContortHelper/ScreenWipeModifierTrigger.attributes.description.delay=The time, in seconds, it takes delaying the routine of the placement. If less than zero, there will be no delay.
 triggers.ContortHelper/ScreenWipeModifierTrigger.attributes.description.needed=Whether the placement is needed for gameplay. Make sure this is checked if and only if the placement must be visible for gameplay. If it's just a style or design, it shouldn't be marked as needed.
 triggers.ContortHelper/ScreenWipeModifierTrigger.attributes.description.occurOnEnter=Whether the trigger's routine will occur when entering or leaving its collider.
