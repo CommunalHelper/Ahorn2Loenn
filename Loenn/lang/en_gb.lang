@@ -869,7 +869,10 @@ triggers.ContortHelper/CustomConfettiTrigger.attributes.description.rotation=The
 triggers.ContortHelper/CustomConfettiTrigger.attributes.description.delaySpawn=The delay, in seconds, for how fast the confetti spawns.
 
 # CustomEffectTrigger
-triggers.ContortHelper/CustomEffectTrigger.placements.name.default=Custom Effect Trigger
+triggers.ContortHelper/CustomEffectTrigger.placements.name.default=Custom Effect Trigger (Unknown)
+triggers.ContortHelper/CustomEffectTrigger.placements.name.lightbeams=Custom Effect Trigger (Light-Beams)
+triggers.ContortHelper/CustomEffectTrigger.placements.name.multiverse=Custom Effect Trigger (Multiverse)
+triggers.ContortHelper/CustomEffectTrigger.placements.name.rainbow=Custom Effect Trigger (Rainbow)
 triggers.ContortHelper/CustomEffectTrigger.attributes.description.delay=The time, in seconds, it takes delaying the routine of the placement. If less than zero, there will be no delay.
 triggers.ContortHelper/CustomEffectTrigger.attributes.description.needed=Whether the placement is needed for gameplay. Make sure this is checked if and only if the placement must be visible for gameplay. If it's just a style or design, it shouldn't be marked as needed.
 triggers.ContortHelper/CustomEffectTrigger.attributes.description.occurOnEnter=Whether the trigger's routine will occur when entering or leaving its collider.
