@@ -56,7 +56,7 @@ lightPath.placements = {
         alphaSpeed = 1.0,
         moveEaser = "CubeInOut",
         moveSpeed = 1.181818,
-        inverted = "false"
+        inverted = "False"
     }
 }
 
