@@ -7,11 +7,6 @@ highResolutionParticleBackdrop.canBackground = false
 highResolutionParticleBackdrop.canForeground = true
 
 highResolutionParticleBackdrop.defaultData = {
-    tag = "",
-    exclude = "",
-    flag = "",
-    notflag = "",
-    always = "",
 
     particle = "snow",
     overlay = "overlay",
