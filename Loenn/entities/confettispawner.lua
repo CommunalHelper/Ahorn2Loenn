@@ -86,6 +86,7 @@ confetti.fieldInformation = {
 }
 
 confettiPath.nodeLimits = {1, 1}
+confettiPath.nodeLineRenderType = "line"
 
 return {
     confetti,
