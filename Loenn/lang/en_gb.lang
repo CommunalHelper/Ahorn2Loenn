@@ -509,7 +509,10 @@ entities.ContortHelper/ConfettiSpawnZoneController.attributes.description.rotati
 entities.ContortHelper/ConfettiSpawnZoneController.attributes.description.delaySpawn=The delay, in seconds, for how fast the confetti spawns.
 
 # CustomEffectController
-entities.ContortHelper/CustomEffectController.placements.name.default=Custom Effect Controller
+entities.ContortHelper/CustomEffectController.placements.name.default=Custom Effect Controller (Unknown)
+entities.ContortHelper/CustomEffectController.placements.name.lightbeams=Custom Effect Controller (Light-Beams)
+entities.ContortHelper/CustomEffectController.placements.name.multiverse=Custom Effect Controller (Multiverse)
+entities.ContortHelper/CustomEffectController.placements.name.rainbow=Custom Effect Controller (Rainbow)
 entities.ContortHelper/CustomEffectController.attributes.description.effect=The path to the compiled effect (.cso). Source effects (.fx, .hlsl) do not work. (The path is relative to '../Effects/')
 entities.ContortHelper/CustomEffectController.attributes.description.epileptic=Whether the effect given can be epileptic.
 entities.ContortHelper/CustomEffectController.attributes.description.shaky=Whether the effect given can be shaky.
