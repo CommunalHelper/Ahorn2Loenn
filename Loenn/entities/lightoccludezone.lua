@@ -13,7 +13,6 @@ lightOccludeZone.placements = {
     }
 }
 
-local displayName = "Light-Occlude Zone"
 
 lightOccludeZone.fillColor = {0.6, 0.6, 0.6, 0.4}
 lightOccludeZone.borderColor = {0.7, 0.7, 0.7, 0.6}
