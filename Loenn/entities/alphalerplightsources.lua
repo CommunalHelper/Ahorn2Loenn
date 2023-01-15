@@ -16,7 +16,7 @@ light.placements = {
         alphaB = 1.0,
         alphaEaser = "CubeInOut",
         alphaSpeed = 1.0,
-        inverted = "false"
+        inverted = "False"
     }
 }
 
