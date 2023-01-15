@@ -7,7 +7,6 @@ confetti.placements = {
     data = {
         amount = 30,
         audio = "event:/game/07_summit/checkpoint_confetti",
-        delay = 0,
         durationMaximum = 4.0,
         durationMinimum = 2.0,
         fallSpeedMaximum = 20.0,
