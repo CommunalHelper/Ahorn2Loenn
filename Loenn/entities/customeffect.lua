@@ -1,11 +1,11 @@
-local effect = {}
+local customeffect = {}
 
-effect.name = "ContortHelper/CustomEffectController"
-effect.depth = 0
-effect.texture = "ahorn/muntheory/contorthelper/customeffectcontroller"
-effect.placements = {
+customeffect.name = "ContortHelper/CustomEffectController"
+customeffect.depth = 0
+customeffect.texture = "ahorn/muntheory/contorthelper/customeffectcontroller"
+customeffect.placements = {
     {
-        name = "default",
+        name = "lightbeam",
         data = {
             effect = "Light-Beams",
             epileptic = false,
@@ -13,7 +13,7 @@ effect.placements = {
         }
     },    
     {
-        name = "default",
+        name = "rainbow",
         data = {
             effect = "Rainbow",
             epileptic = false,
@@ -21,7 +21,7 @@ effect.placements = {
         }
     },
     {
-        name = "default",
+        name = "multiverse",
         data = {
             effect = "Multiverse",
             epileptic = false,
@@ -38,4 +38,4 @@ effect.placements = {
     }
 }
 
-return effect
+return customeffect
