@@ -36,8 +36,7 @@ confetti.fieldInformation = {
         editable = true
     },
     colors = {
-        allowXNAColors = true,
-        fieldType = "color"
+        allowXNAColors = true
     }
 }
 
@@ -78,8 +77,7 @@ confetti.fieldInformation = {
         editable = true
     },
     colors = {
-        allowXNAColors = true,
-        fieldType = "color"
+        allowXNAColors = true
     },
     moveEaser = {
         options = contorthelper.easers,
