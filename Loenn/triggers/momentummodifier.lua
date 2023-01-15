@@ -1,3 +1,4 @@
+local contorthelper = require("mods").requireFromPlugin("libraries.contorthelper")
 local momentum = {}
 
 momentum.name = "ContortHelper/MomentumModifierTrigger"
@@ -42,9 +43,6 @@ conditionalMomentum.placements = {
         persistent = false
     }
 }
-
--- move this require call to the top of the file.
-local contorthelper = require("mods").requireFromPlugin("libraries.contorthelper")
 
 momentum.fieldInformation = {
     operation = {
