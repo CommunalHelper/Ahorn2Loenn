@@ -18,7 +18,7 @@ local customEffect = {}
 customEffect.name = "ContortHelper/CustomEffectTrigger"
 customEffect.placements = {
     {
-        name = "default",
+        name = "lightbeams",
         data = {
             effect = "Light-Beams",
             add = true,
@@ -33,7 +33,7 @@ customEffect.placements = {
         }
     },    
     {
-        name = "default",
+        name = "multiverse",
         data = {
             effect = "Multiverse",
             add = true,
@@ -48,7 +48,7 @@ customEffect.placements = {
         }
     },
     {
-        name = "default",
+        name = "rainbow",
         data = {
             effect = "Rainbow",
             add = true,
