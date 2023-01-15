@@ -18,26 +18,19 @@ rumble.placements = {
     }
 }
 
+-- move this require call to the top of the file.
+local contorthelper = require("mods").requireFromPlugin("libraries.contorthelper")
+
 rumble.fieldInformation = {
     rumbleStrength = {
-        options = {
-            "Climb",
-            "Low",
-            "Medium",
-            "Strong"
-        },
+        options = contorthelper.rumblestrength,
         editable = false
     },
     rumbleLength = {
-        options = {
-            "FullSecond",
-            "TwoSeconds",
-            "Short",
-            "Medium",
-            "Long"
-        },
+        options = contorthelper.rumblelength,
         editable = false
     }
 }
+
 
 return rumble
