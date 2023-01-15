@@ -17,11 +17,11 @@ wipe.placements = {
         }
     },    
     {
-        name = "default",
+        name = "wipein",
         data = {
-            wipeIn = false,
+            wipeIn = true,
             hiresSnow = false,
-            needed = false,
+            needed = true,
             oneUse = false,
             persistent = false,
             delay = 0.0,
