@@ -53,7 +53,7 @@ lightPath.placements = {
         durationOff = 1.0,
         moveEaser = "CubeInOut",
         moveSpeed = 1.181818,
-        startOn = "false"
+        startOn = "False"
     }
 }
 
