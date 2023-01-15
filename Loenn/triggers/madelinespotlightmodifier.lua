@@ -15,7 +15,6 @@ spotlight.placements = {
         easer = "CubeInOut",
         neededFlags = "",
         flagsAfterInvoke = "",
-        delay = 0.0,
         occurOnEnter = true,
         oneUse = false,
         persistent = false
