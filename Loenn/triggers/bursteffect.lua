@@ -17,7 +17,6 @@ burst.placements = {
         needed = false,
         neededFlags = "",
         flagsAfterInvoke = "",
-        delay = 0.0,
         occurOnEnter = true,
         oneUse = false,
         persistent = false
