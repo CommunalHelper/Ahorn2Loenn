@@ -76,6 +76,7 @@ lightPath.fieldInformation = {
 }
 
 lightPath.nodeLimits = {1, 1}
+lightPath.nodeLineRenderType = {1, 1}
 
 return {
     light,
