@@ -10,4 +10,11 @@ origin.placements = {
     }
 }
 
+origin.fieldInformation = {
+    origin = {
+        options = { "Player" },
+        editable = false,
+    }
+}
+
 return origin
