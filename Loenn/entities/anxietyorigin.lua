@@ -1,13 +1,13 @@
-local default = {}
+local origin = {}
 
-default.name = "ContortHelper/AnxietyOriginController"
-default.depth = 0
-default.texture = "ahorn/muntheory/contorthelper/anxietyorigincontroller"
-default.placements = {
+origin.name = "ContortHelper/AnxietyOriginController"
+origin.depth = 0
+origin.texture = "ahorn/muntheory/contorthelper/anxietyorigincontroller"
+origin.placements = {
     name = "default",
     data = {
         origin = "Player"
     }
 }
 
-return default
+return origin
