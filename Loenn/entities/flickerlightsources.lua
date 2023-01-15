@@ -15,7 +15,7 @@ light.placements = {
         endFade = 48,
         durationOn = 1.0,
         durationOff = 1.0,
-        startOn = "true"
+        startOn = "True"
     }
 }
 
