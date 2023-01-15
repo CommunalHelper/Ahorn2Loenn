@@ -42,7 +42,6 @@ lightSourceZone.fieldInformation = {
     }
 }
 
-local displayName = "Light Zone"
 
 lightSourceZone.fillColor = {0.9, 0.5, 0.8, 0.4}
 lightSourceZone.borderColor = {1.0, 0.8, 1.0, 0.6}
