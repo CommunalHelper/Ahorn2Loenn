@@ -43,38 +43,23 @@ conditionalMomentum.placements = {
     }
 }
 
+-- move this require call to the top of the file.
+local contorthelper = require("mods").requireFromPlugin("libraries.contorthelper")
+
 momentum.fieldInformation = {
     operation = {
-        options = {
-            "Set",
-            "Addition",
-            "Subtraction",
-            "Multiplication",
-            "Division"
-        },
+        options = contorthelper.operations,
         editable = false
     }
 }
 
 conditionalMomentum.fieldInformation = {
     operation = {
-        options = {
-            "Set",
-            "Addition",
-            "Subtraction",
-            "Multiplication",
-            "Division"
-        },
+        options = contorthelper.operations,
         editable = false
     },
     conditionalOperation = {
-        options = {
-            "LessThan",
-            "LessThanOrEqualTo",
-            "EqualTo",
-            "GreaterThanOrEqualTo",
-            "GreaterThan"
-        },
+        options = contorthelper.conditionals,
         editable = false
     }
 }
