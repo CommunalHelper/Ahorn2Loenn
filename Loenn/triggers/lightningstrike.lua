@@ -9,7 +9,8 @@ lightning.placements = {
         amount = 2,
         depth = -8500,
         flashColor = "White",
-        flashColorAlpha = "0.6",
+        flashColorAlpha = 0.6,
+
         useFlash = true,
         flashOverPlayer = true,
         lightningColors = "ffffff,ffffff,ffffff",
