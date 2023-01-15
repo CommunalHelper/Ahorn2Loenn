@@ -50,12 +50,10 @@ lightningStrikes.fieldInformation = {
         options = contorthelper.depths
     },
     flashColors = {
-        allowXNAColors = true,
-        fieldType = "color"
+        allowXNAColors = true
     },
     lightningColors = {
-        allowXNAColors = true,
-        fieldType = "color"
+        allowXNAColors = true
     }
 }
 
