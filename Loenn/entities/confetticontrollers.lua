@@ -39,8 +39,7 @@ confetti.fieldInformation = {
         editable = true
     },
     colors = {
-        allowXNAColors = true,
-        fieldType = "color"
+        allowXNAColors = true
     },
     attachTo = {
         options = contorthelper.attaches
@@ -80,8 +79,7 @@ confettiSpawnZone.placements = {
 
 confettiSpawnZone.fieldInformation = {
     colors = {
-        allowXNAColors = true,
-        fieldType = "color"
+        allowXNAColors = true
     },
     attachTo = {
         options = contorthelper.attaches
