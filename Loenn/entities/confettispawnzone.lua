@@ -47,6 +47,9 @@ confetti.fieldInformation = {
     colors = {
         allowXNAColors = true,
         fieldType = "color"
+    },
+    attachTo = {
+        options = contorthelper.attaches
     }
 }
 
