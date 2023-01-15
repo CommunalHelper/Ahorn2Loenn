@@ -1,3 +1,5 @@
+local contorthelper = require("mods").requireFromPlugin("libraries.contorthelper")
+
 local customeffect = {}
 
 customeffect.name = "ContortHelper/CustomEffectController"
@@ -35,6 +37,13 @@ customeffect.placements = {
             epileptic = false,
             shaky = false
         }
+    }
+}
+
+customeffect.fieldInformation = {
+    effect = {
+        options = contorthelper.effects,
+        editable = true
     }
 }
 

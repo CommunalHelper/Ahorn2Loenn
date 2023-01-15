@@ -34,7 +34,8 @@ light.fieldInformation = {
         fieldType = "color"
     },
     alphaEaser = {
-        options = contorthelper.easers
+        options = contorthelper.easers,
+        editable = false
     }
 }
 
@@ -74,10 +75,12 @@ lightPath.fieldInformation = {
         fieldType = "color"
     },
     alphaEaser = {
-        options = contorthelper.easers
+        options = contorthelper.easers,
+        editable = false
     },
     moveEaser = {
-        options = contorthelper.easers
+        options = contorthelper.easers,
+        editable = false
     }
 }
 

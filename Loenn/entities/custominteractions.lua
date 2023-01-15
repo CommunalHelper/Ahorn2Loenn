@@ -58,10 +58,12 @@ memo.fieldInformation = {
         fieldType = "color"
     },
     poemInEaser = {
-        options = contorthelper.easers
+        options = contorthelper.easers,
+        editable = false
     },
     poemOutEaser = {
         options = contorthelper.easers,
+        editable = false
     }
 }
 
@@ -71,10 +73,12 @@ memo.fieldInformation = {
         fieldType = "color"
     },
     poemInEaser = {
-        options = contorthelper.easers
+        options = contorthelper.easers,
+        editable = false
     },
     poemOutEaser = {
         options = contorthelper.easers,
+        editable = false
     }
 }
 

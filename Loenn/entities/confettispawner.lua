@@ -42,7 +42,7 @@ confetti.fieldInformation = {
 
 local confettiPath = {}
 
-confettiPath.name = "ContortHelper/ConfettiSpawner"
+confettiPath.name = "ContortHelper/ConfettiSpawnerPath"
 confettiPath.depth = 0
 confettiPath.texture = "ahorn/muntheory/contorthelper/confettispawnerpath"
 confettiPath.placements = {
@@ -71,7 +71,7 @@ confettiPath.placements = {
     }
 }
 
-confetti.fieldInformation = {
+confettiPath.fieldInformation = {
     depth = {
         options = enums.depths,
         editable = true

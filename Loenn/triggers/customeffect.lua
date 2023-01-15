@@ -1,3 +1,5 @@
+local contorthelper = require("mods").requireFromPlugin("libraries.contorthelper")
+
 local clearEffect = {}
 
 clearEffect.name = "ContortHelper/ClearCustomEffectsTrigger"
@@ -76,6 +78,13 @@ customEffect.placements = {
             oneUse = false,
             persistent = false
         }
+    }
+}
+
+customEffect.fieldInformation = {
+    effect = {
+        options = contorthelper.effects,
+        editable = true
     }
 }
 

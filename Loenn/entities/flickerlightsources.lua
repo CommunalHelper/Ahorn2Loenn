@@ -71,7 +71,8 @@ lightPath.fieldInformation = {
         fieldType = "color"
     },
     moveEaser = {
-        options = contorthelper.easers
+        options = contorthelper.easers,
+        editable = false
     }
 }
 
