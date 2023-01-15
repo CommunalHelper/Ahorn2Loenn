@@ -1,4 +1,3 @@
-#TODO: Edit this, so that lonn can append [modname] to entity placements automatically.
 mods.ContortHelper.name=Contort Helper
 #
 # Generated on 2021-03-11T19:12:16.2382652
@@ -510,7 +509,7 @@ entities.ContortHelper/ConfettiSpawnZoneController.attributes.description.delayS
 
 # CustomEffectController
 entities.ContortHelper/CustomEffectController.placements.name.default=Custom Effect Controller (Unknown)
-entities.ContortHelper/CustomEffectController.placements.name.lightbeams=Custom Effect Controller (Light-Beams)
+entities.ContortHelper/CustomEffectController.placements.name.lightbeam=Custom Effect Controller (Light-Beams)
 entities.ContortHelper/CustomEffectController.placements.name.multiverse=Custom Effect Controller (Multiverse)
 entities.ContortHelper/CustomEffectController.placements.name.rainbow=Custom Effect Controller (Rainbow)
 entities.ContortHelper/CustomEffectController.attributes.description.effect=The path to the compiled effect (.cso). Source effects (.fx, .hlsl) do not work. (The path is relative to '../Effects/')
@@ -1127,7 +1126,8 @@ triggers.ContortHelper/EffectFloatArrayParameterTrigger.attributes.description.v
 triggers.ContortHelper/EffectFloatArrayParameterTrigger.attributes.description.removeKey=Whether to remove the given key instead of setting it.
 
 # ReinstateParametersTrigger
-triggers.ContortHelper/ReinstateParametersTrigger.placements.name.reinstate=Reinstate Parameters Trigger
+triggers.ContortHelper/ReinstateParametersTrigger.placements.name.default=Reinstate Parameters Trigger (Don't Clear)
+triggers.ContortHelper/ReinstateParametersTrigger.placements.name.reinstate=Reinstate Parameters Trigger (Clear)
 triggers.ContortHelper/ReinstateParametersTrigger.attributes.description.clear=Whether to clear the list of parameters and then reinstate.
 triggers.ContortHelper/ReinstateParametersTrigger.attributes.description.delay=The time, in seconds, it takes delaying the routine of the placement. If less than zero, there will be no delay.
 triggers.ContortHelper/ReinstateParametersTrigger.attributes.description.needed=Whether the placement is needed for gameplay. Make sure this is checked if and only if the placement must be visible for gameplay. If it's just a style or design, it shouldn't be marked as needed.
@@ -1321,6 +1321,7 @@ triggers.ContortHelper/RumbleTrigger.attributes.description.flagsAfterInvoke=The
 
 # ScreenWipeTrigger
 triggers.ContortHelper/ScreenWipeTrigger.placements.name.default=Screen Wipe Trigger
+triggers.ContortHelper/ScreenWipeTrigger.placements.name.wipein=Screen Wipe Modifier Trigger (Wipe In, Needed) 
 triggers.ContortHelper/ScreenWipeTrigger.attributes.description.wipeIn=Whether the wipe is in or out.
 triggers.ContortHelper/ScreenWipeTrigger.attributes.description.hiresSnow=Whether to invoke high-resolution snow when wiping in or out.
 triggers.ContortHelper/ScreenWipeTrigger.attributes.description.delay=The time, in seconds, it takes delaying the routine of the placement. If less than zero, there will be no delay.
@@ -1335,7 +1336,6 @@ triggers.ContortHelper/ScreenWipeTrigger.attributes.description.flagsAfterInvoke
 
 # ScreenWipeModifierTrigger
 triggers.ContortHelper/ScreenWipeModifierTrigger.placements.name.default=Screen Wipe Modifier Trigger
-triggers.ContortHelper/ScreenWipeModifierTrigger.placements.name.wipein=Screen Wipe Modifier Trigger (Wipe In, Needed) 
 triggers.ContortHelper/ScreenWipeModifierTrigger.attributes.description.delay=The time, in seconds, it takes delaying the routine of the placement. If less than zero, there will be no delay.
 triggers.ContortHelper/ScreenWipeModifierTrigger.attributes.description.needed=Whether the placement is needed for gameplay. Make sure this is checked if and only if the placement must be visible for gameplay. If it's just a style or design, it shouldn't be marked as needed.
 triggers.ContortHelper/ScreenWipeModifierTrigger.attributes.description.occurOnEnter=Whether the trigger's routine will occur when entering or leaving its collider.
@@ -1489,8 +1489,13 @@ triggers.ContortHelper/SessionStringStorageTrigger.attributes.description.state=
 triggers.ContortHelper/SessionStringStorageTrigger.attributes.description.removeKey=Whether to remove the given key instead of setting it.
 
 # TeleportationTriggerLevel5
-triggers.ContortHelper/TeleportationTriggerLevel5.placements.name.inlevel5=Teleportation Trigger Level 5
-triggers.ContortHelper/TeleportationTriggerLevel5.placements.name.golden5=Teleportation Trigger Level 5 (Golden)
+triggers.ContortHelper/TeleportationTriggerLevel5.placements.name.default=Teleportation Trigger (Level 5)
+triggers.ContortHelper/TeleportationTriggerLevel5.placements.name.inlevel5=Teleportation Trigger (Level 5, In-Level)
+triggers.ContortHelper/TeleportationTriggerLevel5.placements.name.golden5=Teleportation Trigger (Level 5, Golden)
+triggers.ContortHelper/TeleportationTriggerLevel5.placements.name.hrange=Teleportation Trigger (Level 5, H-Range)
+triggers.ContortHelper/TeleportationTriggerLevel5.placements.name.vrange=Teleportation Trigger (Level 5, V-Range)
+triggers.ContortHelper/TeleportationTriggerLevel5.placements.name.golden5_hrange=Teleportation Trigger (Level 5, Golden, H-Range)
+triggers.ContortHelper/TeleportationTriggerLevel5.placements.name.golden5_vrange=Teleportation Trigger (Level 5, Golden, V-Range)
 triggers.ContortHelper/TeleportationTriggerLevel5.attributes.description.roomName=The room that the player teleports to. This room needs either a starting position or a teleportation target to work.
 triggers.ContortHelper/TeleportationTriggerLevel5.attributes.description.roomNameForGolden=The room that the player teleports to if and only if the player has a goldenberry with them. This room needs either a starting position or a teleportation target to work. If empty, it will default to the normal room given.
 triggers.ContortHelper/TeleportationTriggerLevel5.attributes.description.targetTag=The target tag for the teleportation target to teleport to. If empty, it will choose the closest spawn point when teleporting the player.
@@ -1556,8 +1561,13 @@ triggers.ContortHelper/TeleportationTriggerLevel5.attributes.description.neededF
 triggers.ContortHelper/TeleportationTriggerLevel5.attributes.description.flagsAfterInvoke=The flags that are set to true after the trigger is completed. To have more than one, using a comma as a delimiter.
 
 # TeleportationTriggerLevel4
-triggers.ContortHelper/TeleportationTriggerLevel4.placements.name.inlevel4=Teleportation Trigger Level 4
-triggers.ContortHelper/TeleportationTriggerLevel4.placements.name.golden4=Teleportation Trigger Level 4 (Golden)
+triggers.ContortHelper/TeleportationTriggerLevel4.placements.name.default=Teleportation Trigger (Level 4)
+triggers.ContortHelper/TeleportationTriggerLevel4.placements.name.inlevel4=Teleportation Trigger (Level 4, In-Level)
+triggers.ContortHelper/TeleportationTriggerLevel4.placements.name.golden4=Teleportation Trigger (Level 4, Golden)
+triggers.ContortHelper/TeleportationTriggerLevel4.placements.name.hrange=Teleportation Trigger (Level 4, H-Range)
+triggers.ContortHelper/TeleportationTriggerLevel4.placements.name.vrange=Teleportation Trigger (Level 4, V-Range)
+triggers.ContortHelper/TeleportationTriggerLevel4.placements.name.golden4_hrange=Teleportation Trigger (Level 4, Golden, H-Range)
+triggers.ContortHelper/TeleportationTriggerLevel4.placements.name.golden4_vrange=Teleportation Trigger (Level 4, Golden, V-Range)
 triggers.ContortHelper/TeleportationTriggerLevel4.attributes.description.delay=The time, in seconds, it takes delaying the routine of the placement. If less than zero, there will be no delay.
 triggers.ContortHelper/TeleportationTriggerLevel4.attributes.description.needed=Whether the placement is needed for gameplay. Make sure this is checked if and only if the placement must be visible for gameplay. If it's just a style or design, it shouldn't be marked as needed.
 triggers.ContortHelper/TeleportationTriggerLevel4.attributes.description.occurOnEnter=Whether the trigger's routine will occur when entering or leaving its collider.
@@ -1623,8 +1633,13 @@ triggers.ContortHelper/TeleportationTriggerLevel4.attributes.description.reloadR
 triggers.ContortHelper/TeleportationTriggerLevel4.attributes.description.noEffects=Whether there are no effects when teleporting. This is useful for lower-level triggers as there isn't much options to change the effects.
 
 # TeleportationTriggerLevel3
-triggers.ContortHelper/TeleportationTriggerLevel3.placements.name.inlevel3=Teleportation Trigger Level 3
-triggers.ContortHelper/TeleportationTriggerLevel3.placements.name.golden3=Teleportation Trigger Level 3 (Golden)
+triggers.ContortHelper/TeleportationTriggerLevel3.placements.name.default=Teleportation Trigger (Level 3)
+triggers.ContortHelper/TeleportationTriggerLevel3.placements.name.inlevel3=Teleportation Trigger (Level 3, In-Level)
+triggers.ContortHelper/TeleportationTriggerLevel3.placements.name.golden3=Teleportation Trigger (Level 3, Golden)
+triggers.ContortHelper/TeleportationTriggerLevel3.placements.name.hrange=Teleportation Trigger (Level 3, H-Range)
+triggers.ContortHelper/TeleportationTriggerLevel3.placements.name.vrange=Teleportation Trigger (Level 3, V-Range)
+triggers.ContortHelper/TeleportationTriggerLevel3.placements.name.golden3_hrange=Teleportation Trigger (Level 3, Golden, H-Range)
+triggers.ContortHelper/TeleportationTriggerLevel3.placements.name.golden3_vrange=Teleportation Trigger (Level 3, Golden, V-Range)
 triggers.ContortHelper/TeleportationTriggerLevel3.attributes.description.delay=The time, in seconds, it takes delaying the routine of the placement. If less than zero, there will be no delay.
 triggers.ContortHelper/TeleportationTriggerLevel3.attributes.description.needed=Whether the placement is needed for gameplay. Make sure this is checked if and only if the placement must be visible for gameplay. If it's just a style or design, it shouldn't be marked as needed.
 triggers.ContortHelper/TeleportationTriggerLevel3.attributes.description.occurOnEnter=Whether the trigger's routine will occur when entering or leaving its collider.
@@ -1690,8 +1705,13 @@ triggers.ContortHelper/TeleportationTriggerLevel3.attributes.description.reloadR
 triggers.ContortHelper/TeleportationTriggerLevel3.attributes.description.noEffects=Whether there are no effects when teleporting. This is useful for lower-level triggers as there isn't much options to change the effects.
 
 # TeleportationTriggerLevel2
-triggers.ContortHelper/TeleportationTriggerLevel2.placements.name.inlevel2=Teleportation Trigger Level 2
-triggers.ContortHelper/TeleportationTriggerLevel2.placements.name.golden2=Teleportation Trigger Level 2 (Golden)
+triggers.ContortHelper/TeleportationTriggerLevel2.placements.name.default=Teleportation Trigger (Level 2)
+triggers.ContortHelper/TeleportationTriggerLevel2.placements.name.inlevel2=Teleportation Trigger (Level 2, In-Level)
+triggers.ContortHelper/TeleportationTriggerLevel2.placements.name.golden2=Teleportation Trigger (Level 2, Golden)
+triggers.ContortHelper/TeleportationTriggerLevel2.placements.name.hrange=Teleportation Trigger (Level 2, H-Range)
+triggers.ContortHelper/TeleportationTriggerLevel2.placements.name.vrange=Teleportation Trigger (Level 2, V-Range)
+triggers.ContortHelper/TeleportationTriggerLevel2.placements.name.golden2_hrange=Teleportation Trigger (Level 2, Golden, H-Range)
+triggers.ContortHelper/TeleportationTriggerLevel2.placements.name.golden2_vrange=Teleportation Trigger (Level 2, Golden, V-Range)
 triggers.ContortHelper/TeleportationTriggerLevel2.attributes.description.delay=The time, in seconds, it takes delaying the routine of the placement. If less than zero, there will be no delay.
 triggers.ContortHelper/TeleportationTriggerLevel2.attributes.description.needed=Whether the placement is needed for gameplay. Make sure this is checked if and only if the placement must be visible for gameplay. If it's just a style or design, it shouldn't be marked as needed.
 triggers.ContortHelper/TeleportationTriggerLevel2.attributes.description.occurOnEnter=Whether the trigger's routine will occur when entering or leaving its collider.
@@ -1757,8 +1777,9 @@ triggers.ContortHelper/TeleportationTriggerLevel2.attributes.description.reloadR
 triggers.ContortHelper/TeleportationTriggerLevel2.attributes.description.noEffects=Whether there are no effects when teleporting. This is useful for lower-level triggers as there isn't much options to change the effects.
 
 # TeleportationTriggerLevel1
-triggers.ContortHelper/TeleportationTriggerLevel1.placements.name.inlevel1=Teleportation Trigger Level 1
-triggers.ContortHelper/TeleportationTriggerLevel1.placements.name.golden1=Teleportation Trigger Level 1 (Golden)
+triggers.ContortHelper/TeleportationTriggerLevel1.placements.name.default=Teleportation Trigger (Level 1)
+triggers.ContortHelper/TeleportationTriggerLevel1.placements.name.inlevel1=Teleportation Trigger (Level 1, In-Level)
+triggers.ContortHelper/TeleportationTriggerLevel1.placements.name.golden1=Teleportation Trigger (Level 1, Golden)
 triggers.ContortHelper/TeleportationTriggerLevel1.attributes.description.delay=The time, in seconds, it takes delaying the routine of the placement. If less than zero, there will be no delay.
 triggers.ContortHelper/TeleportationTriggerLevel1.attributes.description.needed=Whether the placement is needed for gameplay. Make sure this is checked if and only if the placement must be visible for gameplay. If it's just a style or design, it shouldn't be marked as needed.
 triggers.ContortHelper/TeleportationTriggerLevel1.attributes.description.occurOnEnter=Whether the trigger's routine will occur when entering or leaving its collider.
