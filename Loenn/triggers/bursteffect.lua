@@ -24,6 +24,7 @@ burst.placements = {
 }
 
 burst.nodeLimits = {0, 1}
+burst.nodeLineRenderType = "line"
 
 burst.fieldInformation = {
     alphaEaser = {
