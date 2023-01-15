@@ -1,3 +1,4 @@
+local contorthelper = require("mods").requireFromPlugin("libraries.contorthelper")
 local rumble = {}
 
 rumble.name = "ContortHelper/RumbleTrigger"
@@ -17,9 +18,6 @@ rumble.placements = {
         persistent = false
     }
 }
-
--- move this require call to the top of the file.
-local contorthelper = require("mods").requireFromPlugin("libraries.contorthelper")
 
 rumble.fieldInformation = {
     rumbleStrength = {
