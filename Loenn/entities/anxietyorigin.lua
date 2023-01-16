@@ -1,3 +1,4 @@
+local contorthelper = require("mods").requireFromPlugin("libraries.contorthelper")
 local origin = {}
 
 origin.name = "ContortHelper/AnxietyOriginController"
@@ -12,7 +13,7 @@ origin.placements = {
 
 origin.fieldInformation = {
     origin = {
-        options = { "Player" },
+    options = contorthelper.origintypes,
         editable = false,
     }
 }
