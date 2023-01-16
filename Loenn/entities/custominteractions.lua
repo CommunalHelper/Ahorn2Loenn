@@ -67,7 +67,7 @@ memo.fieldInformation = {
     }
 }
 
-memo.fieldInformation = {
+note.fieldInformation = {
     poemColor = {
         allowXNAColors = true,
         fieldType = "color"
