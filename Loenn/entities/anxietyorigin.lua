@@ -13,7 +13,7 @@ origin.placements = {
 
 origin.fieldInformation = {
     origin = {
-    options = contorthelper.origintypes,
+         options = contorthelper.origintypes,
         editable = false,
     }
 }
