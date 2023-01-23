@@ -1,0 +1,5 @@
+- Name: LegacyLoennPlugins
+  Version: 1.0.0
+  OptionalDependencies:
+    - Name: ContortHelper
+      Version: 1.5.5
